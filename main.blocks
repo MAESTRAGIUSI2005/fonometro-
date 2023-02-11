@@ -1,0 +1,13 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><block type="pxt-on-start" id="dt#$|:ZSsQBCeXT#Q?9i" x="20" y="20"><statement name="HANDLER"><block type="basic_show_icon" id="N73?|uK0W.OblpMoE#^,"><field name="i">IconNames.Heart</field><next><block type="basic_show_icon" id="oZpo{%BH44qUn5F[^ww5"><field name="i">IconNames.SmallHeart</field><next><block type="basic_show_icon" id="A+cy_+zXg,p;dD~*.T|Q"><field name="i">IconNames.Heart</field><next><block type="basic_show_icon" id="r|]:r{QEL$UQ~dZ-I#_S"><field name="i">IconNames.SmallHeart</field></block></next></block></next></block></next></block></statement></block><block type="device_forever" id="d*ZF3mK@YFaZPt$XI[[O" x="25" y="371"><statement name="HANDLER"><block type="controls_if" id="dHxG,kAwj97OKC7)v$b7"><value name="IF0"><shadow type="logic_boolean"><field name="BOOL">TRUE</field></shadow><block type="logic_compare" id="_s7p^2O-%4GB!RpQ6?c#"><field name="OP">LTE</field><value name="A"><shadow type="math_number"><field name="NUM">0</field></shadow><block type="device_get_sound_level" id="oG#mHN`Q5?!!1R#kbO~R"></block></value><value name="B"><shadow type="math_number" id="KkcUCh5uR4xK-}WeEY##"><field name="NUM">100</field></shadow></value></block></value><statement name="DO0"><block type="device_show_leds" id="*WR/puAxfPvf{Ts6tUY`"><field name="LEDS">`
+        . . . . . 
+        . # . # . 
+        . . . . . 
+        # . . . # 
+        . # # # .
+        `</field></block></statement><next><block type="controls_if" id="GEnk5,wsoG%E5U-4~.aH"><value name="IF0"><shadow type="logic_boolean" disabled="true"><field name="BOOL">TRUE</field></shadow><block type="logic_compare" id="a|MT_Z[)c;ejU|v|0[ie"><field name="OP">GTE</field><value name="A"><shadow type="math_number"><field name="NUM">0</field></shadow><block type="device_get_sound_level" id="K1.iT/KRov~$=2R(pkkx"></block></value><value name="B"><shadow type="math_number" id="[;Rw%Q=.X{BAtB1t^G9T"><field name="NUM">100</field></shadow></value></block></value><statement name="DO0"><block type="device_show_leds" id="d80kx!oVmi^6F@Bpre7("><field name="LEDS">`
+        . . . . . 
+        . # . # . 
+        . . . . . 
+        . # # # . 
+        # . . . #
+        `</field></block></statement></block></next></block></statement></block></xml>
